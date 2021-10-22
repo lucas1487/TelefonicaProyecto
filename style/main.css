@@ -1,0 +1,499 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: #343353; 
+}
+
+
+
+nav ul 
+{
+    display: flex; 
+    justify-content: flex-end; 
+    list-style: none;
+    align-items: center;
+    margin-right: 5rem;
+    
+}
+nav ul li a 
+{
+    color: white;
+    
+    text-decoration: none; 
+}
+
+nav ul li 
+{
+
+    padding:  15px; 
+   
+}
+.logo  
+
+{
+    font-size: 30px ; 
+    flex: 1;        
+    
+}
+
+main{
+    
+    margin: 2rem;
+    background-image: url("/img/fondo.svg");
+    
+}
+.seccion-principal{
+    
+    margin-bottom: 5rem;
+}
+.avatar{
+    margin-top: 5rem;
+}
+.avatar-img{
+    width: 150px;
+    display: flex;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+.avatar-text{
+    color: white;
+    margin: 0;
+    text-align: center;
+    margin: 0.5rem;
+
+}
+.redes{
+    text-align: center;
+}
+.redes-icon{
+    width: 25px;
+    padding: 1rem 1.5rem 0 1.5rem;
+    
+}
+.boton{
+    text-align: center;
+    margin: 2.5rem;
+}
+.boton-cont{
+    background-color: #ff4c60;
+    
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 0.5rem;
+    color: white;
+       
+
+}
+
+
+.footer{
+    margin: 2rem;
+    text-align: center;
+    color: white;
+}
+
+/* Seccion CURRICULUM */
+
+.curriculum{
+    background-color: rgba(0, 0, 0, 0.315);
+    width: 50%;
+    margin: auto;
+    color: white;
+    margin-bottom: 2rem;
+    
+}
+.curriculum-titulo
+{
+    margin: auto;
+    text-align: center;
+   
+    padding: 1rem 0 1rem 0;
+}
+.curriculum__datos-personales{
+    
+    text-align: left;
+}
+.curriculum-contenido{
+    text-align: left;
+    padding: 1rem;
+    margin-left: 1rem;
+    
+}
+
+  /* contacto.HTML*/
+  .formulario{
+	width:30rem;
+	padding:2rem;
+	border-radius:1rem;
+	margin:auto;
+	background-color: rgba(0, 0, 0, 0.315);
+    text-align: center;
+}
+
+
+.formulario__titulo{
+	width:10rem;
+	font-weight:bold;
+	display:inline-block;
+    font-size: 1.5rem;
+     color: white;
+    
+}
+
+.formulario__titulo--campo 
+
+
+{
+	width:20rem;
+	padding:1px;
+	border:1px solid #535353;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	display:inline-block;
+    margin: 0.5rem;
+    
+    
+}
+
+
+.formulario__boton{
+	width:100%;
+	padding:8px 16px;
+	margin-top:5px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:#000;
+} 
+
+
+
+.formulario__boton:hover{
+	color: gray;
+}
+
+
+.formulario__texto{
+	width:100%;
+	height:100px;
+	border:1px solid #535353;
+	border-radius:3px;
+	background-color:#f6f6f6;			
+	margin:8px 0;
+	resize:none;
+	display:block;
+}
+.formulario__titulo--newsletter{
+    font-size: 1.5rem;
+    text-align: left;
+    margin: 1rem;
+	font-weight:bold;
+	display:inline-block;
+    font-size: 1.5rem;
+    color: white;
+}
+.formulario__radio--gnc,.formulario__radio--0km{
+    font-size: 1.3rem;
+    padding: 5rem;
+
+}
+/*BLOG*/
+.seccion-blog{
+    background-color: rgba(0, 0, 0, 0.315);
+    width: 90%;
+    height: 30rem;
+    margin: auto;
+    color: white;
+    margin: 2rem;
+}
+.blog-titulo{
+    text-align: center;
+}
+.blog{
+    display: flex;   
+    justify-content: center;
+    width: 100%;
+   
+    
+   
+    
+   
+}
+.blog--articulo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 15%;
+    padding: 1px;
+    margin: 2rem; 
+}
+.blog--titulo{
+    color:white;  
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.5rem;
+    padding: 1rem;
+    
+}
+
+   
+.blog--imagen{
+    width: 100%;
+   
+    
+}
+@media (max-width: 700px)
+  {
+    *{
+        margin: 0;
+    }
+    body{
+        background-color: #343353; 
+    }
+    
+    
+    
+    nav ul 
+    {
+         
+        justify-content: center; 
+        list-style: none;
+        align-items: center;
+        margin-right: 5rem;
+        
+    }
+    nav ul li a 
+    {
+        color: white;
+        
+        text-decoration: none; 
+    }
+    
+    nav ul li 
+    {
+    
+        padding:  7.5px; 
+       
+    }
+    .logo  
+    
+    {
+       display: none;
+        
+    }
+    
+    main{
+        
+        margin: 1rem;
+        background-image: url("/img/fondo.svg");
+        
+    }
+    .seccion-principal{
+        
+        margin-bottom: 2.5rem;
+    }
+    .avatar{
+        margin-top: 2.5rem;
+    }
+    .avatar-img{
+        width: 75px;
+        display: flex;
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+    .avatar-text{
+        color: white;
+        margin: 0;
+        text-align: center;
+        margin: 0.5rem;
+    
+    }
+    .redes{
+        text-align: center;
+    }
+    .redes-icon{
+        width: 13px;
+        padding: 1rem 1.5rem 0 1.5rem;
+        
+    }
+    .boton{
+        text-align: center;
+        margin: 1.5rem;
+    }
+    .boton-cont{
+        background-color: #ff4c60;
+        
+        text-decoration: none;
+        border-radius: 5px;
+        padding: 0.5rem;
+        color: white;
+           
+    
+    }
+    
+    
+    .footer{
+        margin: 1rem;
+        text-align: center;
+        color: white;
+    }
+    
+    /* Seccion CURRICULUM */
+    
+    .curriculum{
+        background-color: rgba(0, 0, 0, 0.315);
+        width: 75%;
+        margin: auto;
+        color: white;
+        margin-bottom: 1rem;
+        
+    }
+    .curriculum-titulo
+    {
+        margin: auto;
+        text-align: center;
+       
+        padding: 1rem 0 1rem 0;
+    }
+    .curriculum__datos-personales{
+        
+        text-align: left;
+    }
+    .curriculum-contenido{
+        text-align: left;
+        padding: 1rem;
+        margin-left: 1rem;
+        
+    }
+    
+      /* contacto.HTML*/
+      .formulario{
+        width:15rem;
+        padding:2rem;
+        border-radius:1rem;
+        margin:auto;
+        background-color: rgba(0, 0, 0, 0.315);
+        text-align: center;
+    }
+    
+    
+    .formulario__titulo{
+        width:10rem;
+        font-weight:bold;
+        display:inline-block;
+        font-size: 1.5rem;
+         color: white;
+        
+    }
+    
+    .formulario__titulo--campo 
+    
+    
+    {
+        width:10rem;
+        padding:1px;
+        border:1px solid #535353;
+        border-radius:3px;
+        background-color:#f6f6f6;
+        display:inline-block;
+        margin: 0.5rem;
+        
+        
+    }
+    
+    
+    .formulario__boton{
+        width:100%;
+        padding:2px 4px;
+        margin-top:2.5px;
+        border:1px solid #000;
+        border-radius:5px;
+        display:block;
+        color:#fff;
+        background-color:#000;
+    } 
+    
+    
+    
+    .formulario__boton:hover{
+        color: gray;
+    }
+    
+    
+    .formulario__texto{
+        width:100%;
+        height:100px;
+        border:1px solid #535353;
+        border-radius:3px;
+        background-color:#f6f6f6;			
+        margin:1px 0;
+        resize:none;
+        display:block;
+        
+    }
+    .formulario__titulo--newsletter{
+        
+        text-align: left;
+        margin: 0.5rem;
+        font-weight:bold;
+        display:inline-block;
+        font-size: 0.75rem;
+        color: white;
+    }
+    .formulario__radio--gnc,.formulario__radio--0km{
+        font-size: 0.6rem;
+        padding: 1.5rem;
+    
+    }
+    /*BLOG*/
+    .seccion-blog{
+        background-color: rgba(0, 0, 0, 0.315);
+        width: 100%;
+        height: 30rem;
+        margin: auto;
+        color: white;
+        
+    }
+    .blog-titulo{
+        text-align: center;
+        
+    }
+    .blog{
+        display: flex;   
+        justify-content: center;
+        width: 100%;
+       
+        
+       
+        
+       
+    }
+    .blog--articulo{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 15%;
+        padding: 1px;
+        margin: 0.5rem; 
+    }
+    .blog--titulo{
+        color:white;  
+        text-align: center;
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 0.5rem;
+        padding: 0.5rem;
+        
+    }
+    
+       
+    .blog--imagen{
+        width: 75%;
+       
+        
+    }
+
+      
+      
+ }
