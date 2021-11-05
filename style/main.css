@@ -39,8 +39,8 @@ nav ul li
 
 main{
     
-    margin: 2rem;
-    background-image: url("/img/fondo.svg");
+    
+    background: url("../img/fondo.svg");
     
 }
 .seccion-principal{
@@ -94,30 +94,106 @@ main{
 }
 
 /* Seccion CURRICULUM */
-
 .curriculum{
-    background-color: rgba(0, 0, 0, 0.315);
-    width: 50%;
-    margin: auto;
-    color: white;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.curriculum-principal
+{
+    background-color: rgba(245, 245, 220, 0.75);
+    width: 30%;
+    
+   
+    
     margin-bottom: 2rem;
+    
+}
+.curriculum--titulo{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.curriculum--foto{
+    width: 50%;
+   border-radius:10rem;
+   
+   margin: 2rem;
+   
+   
+  
+}
+.curriculum--img{
+    width: 1.5rem;
+    margin-right: 0.5rem;
+    
+    
+}
+.curriculum-sobremi{
+
+    text-align: center;
+    margin-bottom: 5rem;
+    padding: 3px;
+}
+
+.curriculum-sobremi h2{
+    margin: 2rem 0 2rem 1rem;
+    border-bottom: 5px solid black;
+    width: 40%;
+}
+
+
+
+.curriculum__datos-personales ul {
+    padding: 1rem; 
+     
+    
+}
+.curriculum__datos-personales li  {
+    list-style: none; 
+    margin-top: 1rem;
+    font-weight:bold;
+     
+    
+}
+.curriculum__datos-personales h2  {
+    margin: 2rem 0 0 1rem;
+    text-align: center;
+    border-bottom: 5px solid black;
+    width: 40%;
+    
+
+     
     
 }
 .curriculum-titulo
 {
-    margin: auto;
-    text-align: center;
+   padding: 1rem;
+   background-color: rgba(245, 245, 220, 0.75);
    
-    padding: 1rem 0 1rem 0;
+   
+   
 }
-.curriculum__datos-personales{
+.curriculum-datos{
+    background-color: rgba(255, 255, 255, 0.75);
+    width: 45%;
+   
+    padding: 1rem;
+    margin-bottom: 2rem;
     
-    text-align: left;
+
 }
+
 .curriculum-contenido{
     text-align: left;
     padding: 1rem;
-    margin-left: 1rem;
+    
+    
+}
+.curriculum-contenido li{
+    margin: 1rem;
     
 }
 
@@ -199,301 +275,256 @@ main{
     padding: 5rem;
 
 }
-/*BLOG*/
-.seccion-blog{
-    background-color: rgba(0, 0, 0, 0.315);
-    width: 90%;
-    height: 30rem;
-    margin: auto;
+/* blog*/
+
+.news h3{
+    text-align: center;
+    font-size: 3rem;
     color: white;
+    padding: 20px 0;
+}
+  
+  .news-content{
+      display: flex;
+  }
+  
+  .news-content img{
+    
+    width: 40%;
+    
     margin: 2rem;
-}
-.blog-titulo{
+
+  }
+  
+  .news-info{
+    margin: 1rem;
+  }
+  
+  .news-info h2{
+    margin-top: 20px;
+    color: white;
+  }
+  .news-info p{
+    margin: 30px 0;
+  }
+  /*POST
+==========================*/
+.posts{
     text-align: center;
-}
-.blog{
-    display: flex;   
-    justify-content: center;
-    width: 100%;
-   
     
-   
     
-   
-}
-.blog--articulo{
-    display: flex;
-    flex-direction: column;
+  }
+  
+  .posts h3{
+    border-bottom: 1px solid #cdd2da;
+    padding: 20px 0;
     text-align: center;
-    width: 15%;
-    padding: 1px;
-    margin: 2rem; 
-}
-.blog--titulo{
-    color:white;  
-    text-align: center;
-    font-family: 'Rajdhani', sans-serif;
-    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 1rem;
+  }
+  
+  .posts-blog{
+    display: inline-block;
     padding: 1rem;
+    width: 25%;
+    margin-bottom: 1rem;
     
-}
-
-   
-.blog--imagen{
+    
+  }
+  
+  .posts-blog img{
     width: 100%;
-   
+  }
+  
+  .posts-blog h4{
+    margin: 20px 0;
+    color: white;
+  } 
+  
+  .posts-blog p{
+    margin-bottom: 35px;
+  }
+  
+ 
+  /*BOTON DE BLOGS
+  =============================*/
+  .blogs-btn{
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #e6162e;
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+  .blogs-btn:hover{
+    color: white;
+    border: 1px solid white;
+    
+  }
+
+
+  @media screen and (max-width: 700px){
+    .logo  
+
+{
+     
+    display: none;        
     
 }
-@media (max-width: 700px)
-  {
-    *{
-        margin: 0;
-    }
-    body{
-        background-color: #343353; 
-    }
-    
-    
-    
-    nav ul 
-    {
-         
-        justify-content: center; 
-        list-style: none;
-        align-items: center;
-        margin-right: 5rem;
-        
-    }
-    nav ul li a 
-    {
-        color: white;
-        
-        text-decoration: none; 
-    }
-    
-    nav ul li 
-    {
-    
-        padding:  7.5px; 
-       
-    }
-    .logo  
-    
-    {
-       display: none;
-        
-    }
-    
-    main{
-        
-        margin: 1rem;
-        background-image: url("/img/fondo.svg");
-        
-    }
-    .seccion-principal{
-        
-        margin-bottom: 2.5rem;
-    }
-    .avatar{
-        margin-top: 2.5rem;
-    }
-    .avatar-img{
-        width: 75px;
-        display: flex;
-        margin: auto;
-        margin-bottom: 1rem;
-    }
-    .avatar-text{
-        color: white;
-        margin: 0;
-        text-align: center;
-        margin: 0.5rem;
-    
-    }
-    .redes{
-        text-align: center;
-    }
-    .redes-icon{
-        width: 13px;
-        padding: 1rem 1.5rem 0 1.5rem;
-        
-    }
-    .boton{
-        text-align: center;
-        margin: 1.5rem;
-    }
-    .boton-cont{
-        background-color: #ff4c60;
-        
-        text-decoration: none;
-        border-radius: 5px;
-        padding: 0.5rem;
-        color: white;
-           
-    
-    }
-    
-    
-    .footer{
-        margin: 1rem;
-        text-align: center;
-        color: white;
-    }
-    
-    /* Seccion CURRICULUM */
-    
-    .curriculum{
-        background-color: rgba(0, 0, 0, 0.315);
-        width: 75%;
-        margin: auto;
-        color: white;
-        margin-bottom: 1rem;
-        
-    }
-    .curriculum-titulo
-    {
-        margin: auto;
-        text-align: center;
-       
-        padding: 1rem 0 1rem 0;
-    }
-    .curriculum__datos-personales{
-        
-        text-align: left;
-    }
-    .curriculum-contenido{
-        text-align: left;
+    .posts-blog{
+        display: inline-block;
         padding: 1rem;
-        margin-left: 1rem;
-        
-    }
+        width: 90%;
+        margin-bottom: 1rem;
+  }
+  .curriculum-datos{
+    background-color: rgba(255, 255, 255, 0.75);
+    width: 60%;
+   
+    padding: 1rem;
+    margin-bottom: 2rem;
     
-      /* contacto.HTML*/
-      .formulario{
-        width:15rem;
-        padding:2rem;
-        border-radius:1rem;
-        margin:auto;
-        background-color: rgba(0, 0, 0, 0.315);
-        text-align: center;
-    }
-    
-    
-    .formulario__titulo{
-        width:10rem;
-        font-weight:bold;
-        display:inline-block;
-        font-size: 1.5rem;
-         color: white;
-        
-    }
-    
-    .formulario__titulo--campo 
-    
-    
-    {
-        width:10rem;
-        padding:1px;
-        border:1px solid #535353;
-        border-radius:3px;
-        background-color:#f6f6f6;
-        display:inline-block;
-        margin: 0.5rem;
-        
-        
-    }
-    
-    
-    .formulario__boton{
-        width:100%;
-        padding:2px 4px;
-        margin-top:2.5px;
-        border:1px solid #000;
-        border-radius:5px;
-        display:block;
-        color:#fff;
-        background-color:#000;
-    } 
-    
-    
-    
-    .formulario__boton:hover{
-        color: gray;
-    }
-    
-    
-    .formulario__texto{
-        width:100%;
-        height:100px;
-        border:1px solid #535353;
-        border-radius:3px;
-        background-color:#f6f6f6;			
-        margin:1px 0;
-        resize:none;
-        display:block;
-        
-    }
-    .formulario__titulo--newsletter{
-        
-        text-align: left;
-        margin: 0.5rem;
-        font-weight:bold;
-        display:inline-block;
-        font-size: 0.75rem;
-        color: white;
-    }
-    .formulario__radio--gnc,.formulario__radio--0km{
-        font-size: 0.6rem;
-        padding: 1.5rem;
-    
-    }
-    /*BLOG*/
-    .seccion-blog{
-        background-color: rgba(0, 0, 0, 0.315);
-        width: 100%;
-        height: 30rem;
-        margin: auto;
-        color: white;
-        
-    }
-    .blog-titulo{
-        text-align: center;
-        
-    }
-    .blog{
-        display: flex;   
-        justify-content: center;
-        width: 100%;
-       
-        
-       
-        
-       
-    }
-    .blog--articulo{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        width: 15%;
-        padding: 1px;
-        margin: 0.5rem; 
-    }
-    .blog--titulo{
-        color:white;  
-        text-align: center;
-        font-family: 'Rajdhani', sans-serif;
-        font-size: 0.5rem;
-        padding: 0.5rem;
-        
-    }
-    
-       
-    .blog--imagen{
-        width: 75%;
-       
-        
-    }
 
-      
-      
- }
+}
+.curriculum-principal
+{
+    background-color: rgba(245, 245, 220, 0.75);
+    width: 40%;
+    
+   
+    
+    margin-bottom: 2rem;
+    
+}
+.curriculum-mail{
+    list-style: none; 
+    margin-top: 1rem;
+    font-size: 10px;
+    font-weight:bold;
+    
+}
+.curriculum__datos-personales li  {
+    list-style: none; 
+    margin-top: 1rem;
+    font-size: 15px;
+    font-weight:bold;
+     
+    
+}
+.curriculum__datos-personales ul {
+    padding: 0.5rem; 
+     
+    
+}
+.news h3{
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+    padding: 20px 0;
+}
+  
+  .news-content{
+      display: flex;
+  }
+  
+  .news-content img{
+    
+    width: 40%;
+    
+    margin: 2rem;
+
+  }
+  
+  .news-info{
+    margin: 1rem;
+  }
+  
+  .news-info h2{
+    margin-top: 20px;
+    color: white;
+  }
+  .news-info p{
+    margin: 30px 0;
+  }
+  .formulario{
+	width:90%;
+	padding:1rem;
+	border-radius:1rem;
+	margin:auto;
+	background-color: rgba(0, 0, 0, 0.315);
+    text-align: center;
+    margin-top: 1rem;
+}
+
+
+.formulario__titulo{
+	width:10rem;
+	font-weight:bold;
+	display:inline-block;
+    font-size: 1rem;
+     color: white;
+    
+}
+
+.formulario__titulo--campo 
+
+
+{
+	width:80%;
+	padding:1px;
+	border:1px solid #535353;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	display:inline-block;
+    margin: 0.5rem;
+    
+    
+}
+
+
+.formulario__boton{
+	width:100%;
+	padding:8px 16px;
+	margin-top:5px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:#000;
+    
+    
+} 
+
+
+
+.formulario__boton:hover{
+	color: gray;
+}
+
+
+.formulario__texto{
+	width:100%;
+	height:100px;
+	border:1px solid #535353;
+	border-radius:3px;
+	background-color:#f6f6f6;			
+	margin:8px 0;
+	resize:none;
+	display:block;
+    
+}
+.formulario__titulo--newsletter {
+    font-size: 1rem;
+    text-align: left;
+    margin: 1rem;
+	font-weight:bold;
+	display:inline-block;
+    
+    color: white;
+}
+.formulario__radio--gnc,.formulario__radio--0km{
+    font-size: 1.3rem;
+    padding: 5rem;
+
+}
+
+}
