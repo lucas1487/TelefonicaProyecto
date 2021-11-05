@@ -128,6 +128,7 @@ main{
 .curriculum--img{
     width: 1.5rem;
     margin-right: 0.5rem;
+    align-items: center;
     
     
 }
@@ -148,14 +149,14 @@ main{
 
 .curriculum__datos-personales ul {
     padding: 1rem; 
-     
+    
     
 }
 .curriculum__datos-personales li  {
     list-style: none; 
     margin-top: 1rem;
     font-weight:bold;
-     
+    
     
 }
 .curriculum__datos-personales h2  {
@@ -363,7 +364,35 @@ main{
 
 
   @media screen and (max-width: 700px){
+    nav ul 
+{
+    display: flex; 
+    justify-content: center; 
+    list-style: none;
+    align-items: center;
+    margin-right: 5rem;
+    
+}
+nav ul li a 
+{
+    color: white;
+    font-size: 1rem;
+    text-decoration: none; 
+}
+
+nav ul li 
+{
+
+    padding:  10px; 
+   
+}
+    
+    
+    
+    
+    
     .logo  
+
 
 {
      
